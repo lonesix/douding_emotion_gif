@@ -32,7 +32,7 @@ Douding Robot Emoji GIF Component for ESP-IDF
 ```yaml
 dependencies:
   douding_emoji_gif:
-    version: "^1.0.0"
+    version: "^1.0.1"
     # 或者使用本地路径
     # path: "../path/to/douding-emoji-gif-component"
 ```
@@ -113,7 +113,8 @@ douding-emoji-gif-component/
     ├── happy.c               # 开心表情GIF数据
     ├── scare.c               # 惊吓表情GIF数据
     ├── buxue.c               # 困惑表情GIF数据
-    └── anger.c               # 愤怒表情GIF数据
+    ├── anger.c               # 愤怒表情GIF数据
+    └── refuce_compressed.c   # 拒绝表情GIF数据
 ```
 
 ## 技术细节
@@ -133,19 +134,11 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 
 ## 更新日志
 
-### v1.0.2 (2025)
-
-- bug fix
 
 ### v1.0.1 (2025)
 
-- 删除示例项目，简化组件结构
-- 优化组件发布配置
-
-### v1.0.0 (2025)
-
 - 初始版本发布
-- 包含 6 个基础表情 GIF
+- 包含 7 个基础表情 GIF
 - 支持 ESP-IDF 5.4.0+和 LVGL 9.0+
 
 ## 联系方式

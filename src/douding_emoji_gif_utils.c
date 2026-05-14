@@ -34,7 +34,7 @@ static const emotion_map_t emotion_maps[] = {
 };
 
 const char* douding_emoji_gif_get_version(void) {
-    return "1.0.0";
+    return "1.0.1";
 }
 
 int douding_emoji_gif_get_count(void) {
