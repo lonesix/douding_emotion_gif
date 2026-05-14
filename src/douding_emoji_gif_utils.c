@@ -20,7 +20,7 @@ extern const lv_image_dsc_t happy;
 extern const lv_image_dsc_t scare;
 extern const lv_image_dsc_t buxue;
 extern const lv_image_dsc_t anger;
-extern const lv_image_dsc_t refuse_compressed;
+extern const lv_image_dsc_t refuce_compressed;
 // 表情映射表
 static const emotion_map_t emotion_maps[] = {
     {"staticstate", &staticstate},
@@ -29,12 +29,12 @@ static const emotion_map_t emotion_maps[] = {
     {"scare", &scare},
     {"buxue", &buxue},
     {"anger", &anger},
-    {"refuce",&refuse_compressed},
+    {"refuce",&refuce_compressed},
     {NULL, NULL}  // 结束标记
 };
 
 const char* douding_emoji_gif_get_version(void) {
-    return "1.0.1";
+    return "1.0.2";
 }
 
 int douding_emoji_gif_get_count(void) {

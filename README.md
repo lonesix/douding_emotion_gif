@@ -4,7 +4,7 @@ Douding Robot Emoji GIF Component for ESP-IDF
 
 ## 概述
 
-这是一个 ESP-IDF 组件，包含了 Douding 机器人的 6 个 GIF 表情资源，专为 LVGL 显示系统设计。组件提供了完整的 GIF 动画资源，可以在支持 LVGL 的 ESP32 设备上显示动态表情。
+这是一个 ESP-IDF 组件，包含了 Douding 机器人的 7 个 GIF 表情资源，专为 LVGL 显示系统设计。组件提供了完整的 GIF 动画资源，可以在支持 LVGL 的 ESP32 设备上显示动态表情。
 
 ## 支持的表情
 
@@ -32,7 +32,7 @@ Douding Robot Emoji GIF Component for ESP-IDF
 ```yaml
 dependencies:
   douding_emoji_gif:
-    version: "^1.0.1"
+    version: "^1.0.2"
     # 或者使用本地路径
     # path: "../path/to/douding-emoji-gif-component"
 ```
@@ -135,7 +135,7 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 ## 更新日志
 
 
-### v1.0.1 (2025)
+### v1.0.2 (2025)
 
 - 初始版本发布
 - 包含 7 个基础表情 GIF

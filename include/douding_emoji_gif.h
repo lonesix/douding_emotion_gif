@@ -55,7 +55,7 @@ LV_IMAGE_DECLARE(buxue);
 LV_IMAGE_DECLARE(anger);
 
 //拒绝表情 - 表示拒绝、否定等情绪
-LV_IMAGE_DECLARE(refuse_compressed);
+LV_IMAGE_DECLARE(refuce_compressed);
 /**
  * @brief 获取组件版本
  * @return 版本字符串
